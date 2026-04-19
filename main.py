@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 
 from api_call import generate_note
+st.set_page_config(page_title="AI Code Debugger", page_icon=":brain:", layout="centered")
 
 
 st.title("AI Code Debugger",anchor=False)
